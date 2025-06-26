@@ -28,10 +28,10 @@ searchInput.addEventListener("keypress", (e) => {
 async function searchUser() {
   const username = searchInput.value.trim();
 
-  if (!username) return alert("Please enter a username");
+  if (!username) return alert("Please enter a GitHub username to search!");
 
   try {
-    // reset the ui
+    // Reset the UI
     profileContainer.classList.add("hidden");
     errorContainer.classList.add("hidden");
 
@@ -40,7 +40,7 @@ async function searchUser() {
     if (!response.ok) throw new Error("User not found");
 
     const userData = await response.json();
-    console.log("user data is here", userData);
+    console.log("User data fetched:", userData);
 
     displayUserData(userData);
 
@@ -144,7 +144,7 @@ function displayUserData(user) {
 
   twitterContainer.style.display = "flex";
 
-  // show the profile
+  // Show the profile
   profileContainer.classList.remove("hidden");
 }
 
