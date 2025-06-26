@@ -86,10 +86,12 @@ Then open `http://localhost:8000` in your browser.
 
 ```text
 github-finder/
+├── .gitignore          # Git ignore rules
+├── LICENSE             # MIT License
+├── README.md           # Project documentation
 ├── index.html          # Main HTML structure
-├── style.css           # Styling and layout
 ├── script.js           # JavaScript functionality
-└── README.md           # Project documentation
+└── style.css           # Styling and layout
 ```
 
 ## API Usage
