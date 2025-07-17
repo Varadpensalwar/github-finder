@@ -1,6 +1,6 @@
 # GitHub User Finder
 
-A sleek and responsive web application that allows you to search for GitHub users and explore their profiles, including their repositories, followers, and other public information.
+A clean and responsive web application that allows you to search for GitHub users and explore their profiles, including their repositories, followers, and other public information.
 
 ## Features
 
